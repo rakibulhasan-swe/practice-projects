@@ -161,6 +161,11 @@ main{
     gap: 40px;
     padding-top: 50px;
 }
+.resume-title{
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
 .resume .title{
     font-weight: 700;
     font-size: 25px;
@@ -168,6 +173,8 @@ main{
 }
 .resume .sub-title{
     color: #757575;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .resume .desc, .desc{
     font-weight: 400;
