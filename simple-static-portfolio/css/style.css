@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.primary-color {
+    color: #fd6e0a;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #fd6e0a;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+}
+.btn-secondary{
+    color: #fd6e0a;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #fd6e0a;
+}
+
+header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* header and navigation */
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+nav li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    margin: 0px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 5px;
+}
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-text{
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about */
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    line-height: 30px;
+}
+.about-info{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.info-title{
+    font-size: 20px;
+    text-align: center;
+    color: #757575;
+}
+.info-desc{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
