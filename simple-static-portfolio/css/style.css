@@ -202,9 +202,25 @@ main{
     font-size: 30px;
     padding-bottom: 30px;
 }
+.contact .desc{
+    padding-bottom: 10px;
+}
+.social-image{
+    text-align: left;
+}
 .contact input[type="text"],input[type="email"], textarea{
     margin-bottom: 24px;
     border: 0;
     width: 100%;
     padding: 20px 30px;
 }
+
+ /* footer */
+ footer{
+    background-color: #FFF8F3;
+    text-align: center;
+    padding: 10px 0;
+ }
+ footer p{
+    font-weight: 600;
+ }
