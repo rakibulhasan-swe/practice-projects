@@ -6,6 +6,11 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 .primary-color {
     color: #fd6e0a;
@@ -19,6 +24,7 @@
     font-weight: 700;
     font-size: 20px;
     border: 0;
+    cursor: pointer;
 }
 .btn-secondary{
     color: #fd6e0a;
@@ -27,6 +33,10 @@
     font-weight: 700;
     font-size: 20px;
     border: 1px solid #fd6e0a;
+    cursor: pointer;
+}
+.btn-secondary i{
+    color: #fd6e0a;
 }
 
 header{
@@ -57,7 +67,7 @@ nav ul {
 }
 
 .banner {
-    margin: 0px 200px;
+    margin: 50px 200px;
     display: flex;
     justify-content: center;
     align-items: center;
