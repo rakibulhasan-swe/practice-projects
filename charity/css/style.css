@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 header{
-    background-image: url('../assets/images/donation9.jpg'), linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0, 0.6));
+    background-image: url('../assets/images/donation9.jpg'), linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.9));
     background-blend-mode: overlay;
     height: 100vh;
     background-repeat: no-repeat;
@@ -32,9 +32,144 @@ header{
     cursor: pointer;
 }
 .btn-primary{
-    background-color: orange;
+    background-color: orangered;
     color: white;
     font-size: 18px;
     border-radius: 8px;
     margin-top: 15px;
+}
+ /* donation section */
+.donate{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px 0;
+}
+.donate-title{
+    font-size: 55px;
+    font-weight: 700;
+}
+.donate-desc{
+    font-size: 16px;
+    margin: 15px 0;
+    color: #757575;
+}
+.donation{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.amount{
+    margin-top: 30px;
+    padding: 35px 20px;
+    background-color: #f9f3f3;
+    font-size: 30px;
+    font-weight: bold;
+    color: #757575;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.amount:hover{
+    border: 2px solid orangered;
+    background-color: rgb(249, 226, 217);
+    color: orangered;
+}
+.other-amount{
+    color: #757575;
+    font-size: 20px;
+    margin-top: 70px;
+}
+hr{
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+/* donate plan  */
+.donate-plan{
+    width: 90%;
+    margin: 0 auto;
+}
+.plan1{
+    background-color: rgb(180, 245, 245);
+    padding: 80px 20px;
+    border-radius: 5px;
+}
+.plan2{
+    background-color: rgb(247, 171, 198);
+    padding: 80px 20px;
+    border-radius: 5px;
+}
+.plan3{
+    background-color: rgb(228, 247, 163);
+    padding: 80px 20px;
+    border-radius: 5px;
+}
+.plan-title{
+    font-size: 26px;
+    padding: 10px 0;
+}
+.plan-desc{
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 10px;
+}
+.donate-plan-container{
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
+/* contribute */
+.contribute{
+    width: 90%;
+    margin: 0 auto;
+    padding: 90px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.survive{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 90px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.img-w{
+    width: 100%;
+}
+.img-div{
+    width: 75%;
+}
+.contribute-title{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+/* updates */
+.updates{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 90px;
+}
+.form{
+    background-color: rgb(246, 246, 200);
+    padding: 70px 30px;
+    margin-top: 50px;
+}
+.update-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+input[type="email"]{
+    padding: 16px 60px;
+    border: 2px solid white;
+}
+.btn-form{
+    background-color: orangered;
+    color: white;
+    margin-left: -5px;
 }
