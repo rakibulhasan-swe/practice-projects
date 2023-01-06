@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: url('../assets/images/donation9.jpg'), linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0, 0.6));
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 55px;
+    font-weight: 700;
+}
+.desc{
+    font-size: 16px;
+    margin: 15px 0;
+}
+.btn{
+    padding: 16px 40px;
+    border: 0;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
