@@ -173,3 +173,17 @@ input[type="email"]{
     color: white;
     margin-left: -5px;
 }
+
+footer{
+    padding: 70px;
+    background-color: black;
+    text-align: center;
+}
+footer h3{
+    font-size: 40px;
+    color: orangered;
+}
+footer p{
+    font-size: 18px;
+    color: #FFF;
+}
