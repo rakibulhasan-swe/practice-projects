@@ -195,3 +195,9 @@ input[type="email"]{
     display: block;
     margin-top: 20px;
 }
+.copy{
+    color: black;
+    text-align: center;
+    font-weight: 300;
+    padding: 10px 0;
+}
