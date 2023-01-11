@@ -101,7 +101,6 @@ img{
     background-image: url('../images/hero-slider-3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 .dest2{
     background-image: url('../images/hero-slider-2.jpg');
@@ -162,3 +161,23 @@ img{
     font-size: 0.9rem;
     padding: 1rem 0 0.5rem 0;
 }
+
+/* responsiveness */
+@media only screen and (max-width: 576px) {
+    .service, .destination-container, .card-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+/* for tablet */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .service{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .destination-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
