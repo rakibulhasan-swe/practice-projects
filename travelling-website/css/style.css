@@ -32,3 +32,49 @@ header{
     font-weight: 800;
     padding-bottom: 2rem;
 }
+
+.services{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+.service{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.desc{
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    color: #757575;
+    padding: 1.5rem 0 3.5rem 0;
+
+}
+.single-service{
+    padding: 4rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.single-service h4{
+    font-size: 1.2rem;
+    padding-bottom: 1.3rem;
+}
+.single-service p{
+    font-size: 1rem;
+    color: #757575;
+    font-weight: 300;
+}
+.single-service-container{
+    display: grid;
+    gap: 2rem;
+}
