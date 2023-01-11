@@ -36,7 +36,7 @@ header{
 .services{
     width: 80%;
     margin: 0 auto;
-    padding: 5rem 0;
+    padding: 6rem 0;
 }
 img{
     width: 100%;
@@ -61,7 +61,7 @@ img{
 
 }
 .single-service{
-    padding: 4rem;
+    padding: 4rem 1rem;
     background-color: whitesmoke;
     border-radius: 10px;
 }
@@ -77,4 +77,88 @@ img{
 .single-service-container{
     display: grid;
     gap: 2rem;
+}
+
+.popular-destination{
+    width: 80%;
+    margin: 0 auto;
+}
+.destination-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.destination{
+    height: 70vh;
+    border-radius: 1rem;
+    padding: 4rem 0 0 2rem;
+}
+.destination:hover{
+    transition: all 1s linear;
+    transform: scale(1.1);
+}
+.dest1{
+    background-image: url('../images/hero-slider-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.dest2{
+    background-image: url('../images/hero-slider-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dest3{
+    background-image: url('../images/hero-slider-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.destination h4{
+    font-weight: 600;
+    color: rgb(66, 70, 72);
+}
+.destination p{
+    font-weight: 300;
+    font-size: 0.8rem;
+    padding-top: 0.3rem;
+}
+
+.discount{
+    width: 80%;
+    margin: 0 auto;
+    padding: 6rem 0;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+.card h4{
+    padding: 0.5rem 0 0.3rem 0;
+    font-weight: 400;
+    /* font-size: 1.2rem; */
+}
+.card p{
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.card span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.contact{
+    background-color: black;
+    color: #FFF;
+    padding: 4rem;
+    width: 100%;
+    text-align: center;
+}
+.contact h3{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.contact p{
+    font-size: 0.9rem;
+    padding: 1rem 0 0.5rem 0;
 }
