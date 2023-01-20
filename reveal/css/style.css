@@ -49,3 +49,11 @@
 .client-img-size{
     width: 10rem;
 }
+.btn:hover{
+    border: 1px solid #1C82AD;
+    color: #000 !important;
+}
+.btn-outline-first:hover{
+    border: 1px solid #FFF;
+    color: #FFF !important;
+}

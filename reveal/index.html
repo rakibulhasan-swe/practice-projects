@@ -22,9 +22,11 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary container">
-        <div class="container-fluid">
+
+
+    <header id="home">
+      <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+        <div class="container">
           <a class="navbar-brand text-first fs-1 fw-bold" href="#"
             >Reve<span class="text-second">al</span></a
           >
@@ -42,19 +44,21 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#services">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
+                <a class="nav-link" href="#team">Team</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -194,7 +198,7 @@
 
     <main>
       <!-- about section -->
-      <section class="container py-5 my-5">
+      <section class="container py-5 my-5" id="about">
         <div class="row gy-5 align-items-center">
           <div class="col-md-6">
             <img class="img-fluid" src="./image/about-img.jpg" alt="" />
@@ -223,7 +227,7 @@
       </section>
 
       <!-- services section -->
-      <section class="container py-5 my-5">
+      <section class="container py-5 my-5" id="services">
         <h3 class="text-first fw-bold display-6 pb-2">Services</h3>
         <p class="lh fw-light">
           Retaining customer base is important for any enterprise, it takes
@@ -369,7 +373,7 @@
       </section>
 
       <!-- team section -->
-      <section class="container py-5 my-5">
+      <section class="container py-5 my-5" id="team">
         <h3 class="text-first fw-bold display-6 pb-3">Our Team</h3>
         <p class="lh fw-light">
           Here is our team members Who alwys gives there best for the company.
@@ -455,7 +459,7 @@
       </section>
 
       <!-- contact us -->
-      <section class="container py-5 my-5">
+      <section class="container py-5 my-5" id="contact">
         <h3 class="text-first fw-bold display-6 pb-3">Contact Us</h3>
         <p class="lh fw-light">
           We are here to help you 24/7. If you have any query feel free to
@@ -525,11 +529,24 @@
           </div>
           <div class="col-md-2">
             <h5 class="pb-4">Useful Links</h5>
-            <p><a class="text-decoration-none text-white" href="">Home</a></p>
-            <p><a class="text-decoration-none text-white" href="">About</a></p>
-            <p><a class="text-decoration-none text-white" href="">Team</a></p>
             <p>
-              <a class="text-decoration-none text-white" href="">Contact</a>
+              <a class="text-decoration-none text-white" href="#home">Home</a>
+            </p>
+            <p>
+              <a class="text-decoration-none text-white" href="#about">About</a>
+            </p>
+            <p>
+              <a class="text-decoration-none text-white" href="#services"
+                >Services</a
+              >
+            </p>
+            <p>
+              <a class="text-decoration-none text-white" href="#team">Team</a>
+            </p>
+            <p>
+              <a class="text-decoration-none text-white" href="#contact"
+                >Contact</a
+              >
             </p>
           </div>
           <div class="col-md-2">
