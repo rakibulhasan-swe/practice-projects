@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+.bg-first{
+    background-color: #13005A;
+}
 .text-first{
     color: #13005A;
 }
@@ -17,6 +20,13 @@
 }
 .btn-second{
     background-color: #1C82AD;
+}
+.btn-outline-first{
+    border: 1px solid #1C82AD;
+    color: white;
+}
+.border-custom{
+    border: 1px solid #1C82AD;
 }
 
 .background{
@@ -32,4 +42,10 @@
 }
 .background-img3{
     background-image: url('../image/carousel/3.jpg');
+}
+.lh{
+    line-height: 1.6rem;
+}
+.client-img-size{
+    width: 10rem;
 }
