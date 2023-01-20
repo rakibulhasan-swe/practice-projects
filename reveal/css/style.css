@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-first{
+    color: #13005A;
+}
+.text-second{
+    color: #1C82AD;
+}
+.btn-first{
+    background-color: #13005A;
+}
+.btn-second{
+    background-color: #1C82AD;
+}
+
+.background{
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-img1{
+    background-image: url('../image/carousel/4.jpg');
+}
+.background-img2{
+    background-image: url('../image/carousel/2.jpg');
+}
+.background-img3{
+    background-image: url('../image/carousel/3.jpg');
+}
