@@ -28,7 +28,10 @@
 .border-custom{
     border: 1px solid #1C82AD;
 }
-
+nav{
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(20px) !important;
+}
 .background{
     height: 90vh;
     background-repeat: no-repeat;
