@@ -1,1 +1,1 @@
-# practice-projects ( HTML, CSS, BOOTSTRAP, JS )
+# practice-projects ( HTML, CSS, BOOTSTRAP )
